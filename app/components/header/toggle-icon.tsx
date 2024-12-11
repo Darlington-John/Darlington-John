@@ -1,3 +1,5 @@
+'use client'
+import { Sling as Hamburger } from 'hamburger-react'
 import { useState } from "react";
 import { useEffect } from "react";
 import { useDax } from "~/app/context/dax-context";
@@ -18,31 +20,31 @@ interface ToggleIconProps {
   {
     
   const {isOverlayOpen, setIsOverlayOpen}= useDax();
-  const [isLargeScreen, setIsLargeScreen] = useState(window?.innerWidth > 760);
-  useEffect(() => {
-     const handleResize = () => {
-        setIsLargeScreen(window?.innerWidth > 500);
-     };
+  const [isLargeScreen, setIsLargeScreen] = useState(false);
 
-     window.addEventListener('resize', handleResize);
-     return () => window.removeEventListener('resize', handleResize);
+  useEffect(() => {
+    // Define the resize handler
+    const handleResize = () => {
+      setIsLargeScreen(window.innerWidth > 760);
+    };
+
+    // Initial check
+    handleResize();
+
+    // Add event listener for window resize
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup on unmount
+    return () => window.removeEventListener("resize", handleResize);
   }, []);
+
+  // Prevent rendering until `isLargeScreen` has been determined
+  if (isLargeScreen === null) {
+    return null;
+  }
     return(
-    <div onClick={isLargeScreen? toggleMenuPopup: handleToggleOverlay} className="relative z-20">
-      <div className="nav    w-[70px]  h-[43px]  lg:w-[50px]  lg:h-[23px]">
-      <input type="checkbox" checked={isLargeScreen?isMenuVisible: isOverlayOpen} />
-      <svg className="max-h-[50px]">
-        <use xlinkHref="#menu"  />
-        <use xlinkHref="#menu" />
-      </svg>
-    </div>
-    
-    
-    <svg xmlns="http://www.w3.org/2000/svg" style={{ display: "none" }}>
-      <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 56" id="menu">
-        <path d="M48.33,45.6H18a14.17,14.17,0,0,1,0-28.34H78.86a17.37,17.37,0,0,1,0,34.74H42.33l-21-21.26L47.75,4" />
-      </symbol>
-    </svg>
+    <div onClick={isLargeScreen? toggleMenuPopup: handleToggleOverlay} className={`relative z-[120]   flex items-center jusify-center  dxs:scale-[0.60]   ${isOverlayOpen || isMenuVisible? '':"bg-[#635b5469]"} `}>
+    <Hamburger toggled={isLargeScreen?isMenuVisible: isOverlayOpen} duration={0.6}color="#efeae8" size={30}   />
     </div>
     )}
     

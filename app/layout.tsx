@@ -7,6 +7,7 @@ import Hover from "./components/hover-effects";
 import Footer from "./components/footer";
 import Header from "./components/header/header";
 import Overlay from "./components/overlay";
+import Noise from "./components/noise";
 
 const recoleta = localFont({
   src: "./fonts/Recoleta-SemiBold.ttf",
@@ -57,6 +58,7 @@ export default function RootLayout({
       <body
         className={`${recoleta.variable} ${recoletaBold.variable} ${cursive.variable} ${mulish.variable}  ${mulishSemi.variable} ${macho.variable} antialiased flex  flex-col  justify-between h-screen   bg-darkBlue`}
       >
+        <Noise/>
         <DaxProvider>
         <Header/>
         <Overlay/>

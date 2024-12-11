@@ -1,3 +1,4 @@
+'use client'
 import booknest from './../../public/assets/images/booknest.png'
 import spotify from './../../public/assets/images/spotify.png'
 import loudmob from './../../public/assets/images/loudmob.png'
@@ -56,7 +57,8 @@ const Projects = () => {
                               gitLink: 'https://github.com/Darlington-John/TBH'
                                }
     ]
-    return ( <section className="flex flex-col gap-16  items-center w-full xs:gap-8">
+    
+    return ( <section className="flex flex-col gap-16  items-center w-full xs:gap-8  ">
         <div className='flex flex-col gap-2 items-center  sm:px-4 sm:items-start'>
 <h1 className="text-5xl text-white 2xl:text-4xl lg:text-3xl xs:text-2xl    sm:text-start  text-blue">
     Projects
@@ -67,7 +69,7 @@ const Projects = () => {
 </div>
 <div className='flex flex-col xl:gap-16  gap-32 '>
 {projects.map((data, index)=>(
-    <Project {...data}  key={index + 1} data={data}/>
+    <Project {...data}  key={index + 1} data={data} />
 ))}
 </div>
 <p className="text-base text-white w-[600px] text-center font-[family-name:var(--font-mulish-semibold)]  sm:text-sm sm:w-full xs:text-start ">

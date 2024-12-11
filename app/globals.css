@@ -87,7 +87,7 @@ border: 2px  dotted #d4a373;
 }
 
 
-.bubble-blue {
+.bubble-mustard {
   --c: #efeae8;
   color:#efeae8;
   font-size: 16px;
@@ -102,7 +102,7 @@ border: 2px  dotted #d4a373;
   background-color: #d4a373;
 }
 
-.bubble-blue span {
+.bubble-mustard span {
   position: absolute;
   width: 25%;
   height: 100%;
@@ -115,28 +115,28 @@ border: 2px  dotted #d4a373;
   z-index: -1;
 }
 
-.bubble-blue:hover {
+.bubble-mustard:hover {
   color: #d4a373;
 
 }
 
-.bubble-blue:hover span {
+.bubble-mustard:hover span {
   transform: translateY(0) scale(2);
 }
 
-.bubble-blue span:nth-child(1) {
+.bubble-mustard span:nth-child(1) {
   --n: 1;
 }
 
-.bubble-blue span:nth-child(2) {
+.bubble-mustard span:nth-child(2) {
   --n: 2;
 }
 
-.bubble-blue span:nth-child(3) {
+.bubble-mustard span:nth-child(3) {
   --n: 3;
 }
 
-.bubble-blue span:nth-child(4) {
+.bubble-mustard span:nth-child(4) {
   --n: 4;
 }
 
@@ -194,6 +194,7 @@ border: 2px  dotted #d4a373;
     }
   }
 }
+
 @media screen  and (max-width: 639px) {
   .intro{
     background: transparent;
@@ -366,7 +367,30 @@ to {
   transform: rotate(360deg);
 }
 }
+.grow {
+  animation: Grow  1.5s alternate infinite ;
+  border-radius: 50%;
+}
+@keyframes Grow{
+from {
+transform: rotate(0)scale(0.5);
 
+}
+to {
+  transform: rotate(360deg)scale(1);
+}
+}
+.dance {
+  animation: Dance  1.5s alternate infinite ;
+}
+@keyframes Dance{
+from {
+transform: translateY(0);
+}
+to {
+  transform: translateY(20px);
+}
+}
 @keyframes Float{
   0% {
     
@@ -435,3 +459,19 @@ to {
     animation: fadeOutTablet 0.5s forwards;
   }
 }
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+   -webkit-background-clip: text;
+   -webkit-text-size-adjust: none;
+   -webkit-text-fill-color: #635b54 !important;
+}
+
+.works::-webkit-scrollbar {
+  height: 0px; /* Height of horizontal scrollbar */
+  width: 0px;
+  
+}
+

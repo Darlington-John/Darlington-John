@@ -1,5 +1,5 @@
 'use client';
-import { createContext, useEffect, useRef, useState,  MouseEvent, useMemo, useCallback, useContext } from 'react';
+import React, { createContext, useEffect, useRef, useState,  MouseEvent, useMemo, useCallback, useContext } from 'react';
 interface HoverItem {
   id: string;
   x: number;
@@ -50,6 +50,7 @@ export const DaxProvider = ({
        timeoutRefs.current = [];
      };
    }, []);
+
    const providerValue = useMemo(
       () => ({
          isOverlayOpen,

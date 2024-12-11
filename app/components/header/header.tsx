@@ -61,6 +61,7 @@ const Header = () => {
 
     const {
       isVisible: isMenuVisible,
+      setIsVisible: setIsMenuVisible,
       isActive: menu,
       ref: menuRef,
       togglePopup: toggleMenuPopup,
@@ -74,7 +75,8 @@ const Header = () => {
     }
     overlayElement.style.width = '0%';
     setIsOverlayOpen(false);
- }, [linkname, setIsOverlayOpen]);
+setIsMenuVisible(false);
+ }, [linkname, setIsOverlayOpen, setIsMenuVisible]);
  const handleToggleOverlay = () => {
     toggleOverlay();
     setIsOverlayOpen(!isOverlayOpen);
@@ -83,7 +85,7 @@ const Header = () => {
  const menuProps={menu, isMenuVisible, menuRef};
     return ( <div className="b  w-full py-16  px-20 flex items-center justify-between  fixed top-0 left-0 lg:py-8  z-[100]  lg:px-8  dxs:py-3 dxs:px-4      "style={elementStyle} >
 <div className="flex gap-2 items-center md:gap-1  ">
-<h1 className="  text-darkBrown  text-4xl rust-animated macho lg:text-2xl  ">darlington</h1>
+<Link href="/" className="  text-darkBrown  text-4xl rust-animated macho lg:text-2xl  ">darlington</Link>
 
 
 </div>
@@ -105,6 +107,7 @@ export const toggleOverlay = () => {
  
     if (overlayElement.style.width === '100%') {
        overlayElement.style.width = '0%';
+       
     } else {
        overlayElement.style.width = '100%';
     }

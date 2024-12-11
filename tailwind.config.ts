@@ -21,7 +21,8 @@ lighterGrey: '#F4F5F8',
 black: '#000',
 white:'#fff',
 dimBlue: '#0aa0ea70',
-transparent: '#00000000'
+transparent: '#00000000',
+green: '#566D44'
     },
     screens: {
       '4xl': '1600px',

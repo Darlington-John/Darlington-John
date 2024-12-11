@@ -29,8 +29,8 @@ const Project = (props: any) => {
 )}
     </Link>
     <div className="flex gap-2 items-center mx-auto">
-<Button to={props.link}   blue action="Demo"/>
-<Button to={props.gitLink}   grey action="Git Repo"/>
+<Button to={props.link}   mustard action="Demo"/>
+<Button to={props.gitLink}   classic  action="Git Repo"/>
     </div>
     </div>);
 }

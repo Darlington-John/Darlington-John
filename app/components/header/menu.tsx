@@ -5,7 +5,7 @@ const Menu = (props:any) => {
     const worksLink=[
         {
             id:1,
-            href: '/work',
+            href: '/works',
             to: "My Works"
         },
         {
@@ -43,7 +43,7 @@ const Menu = (props:any) => {
     ]
     return (
         menu && (
-            <div className={`bg-mustard   duration-300 absolute  -top-5  -right-5  overflow-hidden  dxs:hidden      ${isMenuVisible? ' expand opacity-100':' expand-hidden  opacity-20'}`} ref={menuRef}>
+            <div className={`bg-mustard   duration-300 absolute  -top-5  -right-5  overflow-hidden  dxs:hidden  z-[100]     ${isMenuVisible? ' expand opacity-100':' expand-hidden  opacity-20'}`} ref={menuRef}>
   <div className="flex flex-col bg-white h-full  relative" >
         <div className={`bg-mustard   duration-300 overflow-hidden h-full       `}>
           <div className=" flex flex-col gap-10 py-16 px-12 lg:gap-5  lg:py-10 lg:px-6 ">
