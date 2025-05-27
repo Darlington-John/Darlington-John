@@ -1,24 +1,36 @@
-_About Me_
-👋 Hi, I’m Olaniyi Abeleje
-👀 I’m interested in system design, product development, and software engineering.
-When I’m not doing any of those, I like to listen to music and discuss bootstrapping and scaling ideas.
-💞️ I’m looking to collaborate on building solutions to real-life problems. I’m currently building in a couple of spaces: AI, productivity, collaboration, and HR tech.
-📫 Reach me at olaniyigeorge77@gmail.com, Twitter: @imoctborn
-Tools/Skills
-Backend Development:
-FastAPI, Python, Django, Node.js
+# 🌟 My Blog-Like App
 
-Frontend Development:
-Next.js, React, TypeScript, TailwindCSS
+A modern and minimal blog-style web app built with **Next.js**, **TypeScript**, **Tailwind CSS**, and **TipTap** rich text editor. Users can create, view, and interact with posts in a smooth, accessible, and beautiful interface.
 
-Databases:
-PostgreSQL, MongoDB, SQLite
+![screenshot](./preview.png)
 
-AI & Cloud Services:
-LangChain, OpenAI APIs, AWS (Lambda, S3, EC2)
+## ✨ Features
 
-Realtime & WebSockets:
-WebSockets, Redis, Celery
+- 📝 Rich text post creation with TipTap
+- 💬 Nested comment system with reply threads
+- 🔒 Auth system with NextAuth (Google sign-in)
+- ⚙️ Responsive UI powered by TailwindCSS
+- 🌙 Light & Dark mode support
+- ⚡ Fast and SEO-friendly with Next.js app router
 
-Deployment & DevOps:
-Render, Vercel, Docker, GitHub Actions
+---
+
+## 🚀 Tech Stack
+
+- **Framework**: [Next.js](https://nextjs.org/)
+- **Styling**: [TailwindCSS](https://tailwindcss.com/)
+- **Editor**: [TipTap](https://tiptap.dev/)
+- **Database**: MongoDB with Mongoose
+- **Authentication**: NextAuth.js (Google Provider)
+- **State Management**: React Context / Redux (optional)
+- **Other Tools**: React Dropzone, dnd-kit, Socket.IO
+
+---
+
+## 📦 Installation
+
+```bash
+git clone https://github.com/your-username/blog-app.git
+cd blog-app
+npm install
+npm run dev
