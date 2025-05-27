@@ -1,39 +1,42 @@
 # 🌟 About Me
 
 - 👋 Hi, I’m Darlington John
-- A Junior frontend developer with a creative heart and a curious mind
-- 👀 Coding is my way of building cool stuff and staying grounded.
+-  A Junior frontend developer with a creative heart and a curious mind
+-  🧠 Curious mind, creative heart. I’m always building something.
+-  💻 I live in code — it’s how I stay grounded, focused, and expressive
 -  🎧 Music keeps me grounded. I mean, I love music. But let’s be real — who doesn’t? 😒
 -  🎌 Oh — I love anime too? Yeah, I’m that person. Sub > Dub. Fight me 🔥
--  When I’m not doing any of those, I like to listen to music and learn new tech frameworls.
+-  ✨ When I’m not coding, I’m exploring new frameworks or dreaming up the next fun UI interaction.
 
 ---
 
 ## 🚀Tools/Skills
 
-### Frontend development
+### 🖥️ Frontend development
 - Reactjs, Nextjs, TypeScript, JavaScript, MERN stack, Remix
+  
+### State Management
+- Redux, React Context API
 
-### Databases
+### 💾Databases
 - MongoDb, PostgreSQL, Xata
 
-### Styling
+### 🎨 Styling
 - Tailwind Css, Bootstrap, Vanilla Css
 
-### State Management
-- Redux, React Context Api
-
-### Tools
-- Jwt, Tiptap, Paystack
+### 🧰 Tools & Utilities
+Git & GitHub, JWT, Tiptap, Paystac
 
 ### Version control
 - Git, GitHub  
 
-### Websites Designed
+### Projects I've built
+Here are some of my favorite solo projects, all built from scratch:
+
 •	[Arhaus](https://tailwindcss.com/) -   An e-commerce site where users can purchase house-hold furniture. An admin dashboard for products uploads and keeping track of daily sales and much more.
 
 •	[Daxapp](https://daxapp.vercel.app/) – This is a messaging web app where users can send messages, voice notes, images, and videos to people on DaxApp. Messages can be replied to or deleted by either user. Users can upload text statuses, update their profile details, and modify their profiles etc. 
-Try chatting me up on the site with this number 07018933248
+ #### Feel free to message me on the app with this number: 07018933248
 
 •	[Wildcatter](https://darlington-wildcatter.vercel.app/) – A branding web application built with Next.js, Tailwind CSS, and PostgreSQL to store and display gear. Users can purchase merch. I explored a lot of animations in this project — something I genuinely enjoy and leaned into creatively.
 
@@ -43,12 +46,17 @@ Try chatting me up on the site with this number 07018933248
 
 •	 [Clam](https://darlington-clam.vercel.app/) – A note-taking app for recording daily income and expense transactions, featuring graphical representations of transactions. Built with Next.js, Tailwind CSS, and MongoDB.
 
-Note: These are all sites designed by myself from scratch. 
- For educational use only. Not affiliated with any real financial platform.
-
+#### ⚠️ All projects are personal and educational — not affiliated with any real financial institution.
 
 ---
-# Reach me
-📫 Reach me at [email](mailto:onuohadarlington38@gmail.com)
-[LinkedIn](https://www.linkedin.com/in/darlington-john-47a573291/)
-Call- 07018933248, 09033353412
+
+# 📫 Let’s Connect
+I’m actively looking for frontend development internships — especially ones where I can keep learning and building real-world experiences.
+
+Email: onuohadarlington38@gmail.com
+
+LinkedIn: Darlington John
+
+Call: 07018933248, 09033353412
+
+Let’s build something cool together. 🚀
