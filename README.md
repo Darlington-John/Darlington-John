@@ -8,6 +8,8 @@
 -  🎌 Oh — I love anime too? Yeah, I’m that person. Sub > Dub. Fight me 🔥
 -  ✨ When I’m not coding, I’m exploring new frameworks or dreaming up the next fun UI interaction.
 
+-  [My Portfolio](https://darlington-john.framer.website/)- Check out my portfolio
+
 ---
 
 ## 🚀Tools/Skills
@@ -25,7 +27,7 @@
 - Tailwind Css, Bootstrap, Vanilla Css
 
 ### 🧰 Tools & Utilities
-Git & GitHub, JWT, Tiptap, Paystac
+Git & GitHub, JWT, Tiptap, Paystack
 
 ### Version control
 - Git, GitHub  
@@ -33,7 +35,7 @@ Git & GitHub, JWT, Tiptap, Paystac
 ### Projects I've built
 Here are some of my favorite solo projects, all built from scratch:
 
-•	[Arhaus](https://tailwindcss.com/) -   An e-commerce site where users can purchase house-hold furniture. An admin dashboard for products uploads and keeping track of daily sales and much more.
+•	[Arhaus](https://darlington-arhaus.vercel.app/) -   An e-commerce site where users can purchase house-hold furniture. An admin dashboard for products uploads and keeping track of daily sales and much more.
 
 •	[Daxapp](https://daxapp.vercel.app/) – This is a messaging web app where users can send messages, voice notes, images, and videos to people on DaxApp. Messages can be replied to or deleted by either user. Users can upload text statuses, update their profile details, and modify their profiles etc. 
  #### Feel free to message me on the app with this number: 07018933248
@@ -57,6 +59,6 @@ Email: onuohadarlington38@gmail.com
 
 LinkedIn: Darlington John
 
-Call: 07018933248, 09033353412
+Whatsapp: 07018933248
 
 Let’s build something cool together. 🚀
