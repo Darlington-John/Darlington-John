@@ -58,6 +58,4 @@ Email: onuohadarlington38@gmail.com
 
 LinkedIn: Darlington John
 
-Whatsapp: 07018933248
-
 Let’s build something cool together. 🚀
