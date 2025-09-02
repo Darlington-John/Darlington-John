@@ -1,7 +1,7 @@
 # 🌟 About Me
 
 - 👋 Hi, I’m Darlington John
--  A Junior frontend developer 
+-  A Frontend developer 
 -  💻 I live in code — it’s how I stay grounded, focused, and expressive
 -  🎧 Music keeps me grounded. I mean, I love music. But let’s be real — who doesn’t? 😒
 -  🎌 Oh — I love anime too? Yeah, I’m that person. Sub > Dub. Fight me 🔥
