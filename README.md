@@ -34,6 +34,8 @@ Git & GitHub, JWT, Tiptap, Paystack
 ### Projects I've built
 Here are some of my favorite solo projects, all built from scratch:
 
+•	[Devling](https://darlington-john.framer.website/) is a modern, role-based content publishing platform designed for dynamic article management and community engagement. Built with Next.js and TypeScript, it offers a structured system where content is organized into categories, each containing multiple articles and categorized for better discovery.
+
 •	[Arhaus](https://darlington-arhaus.vercel.app/) -   An e-commerce site where users can purchase house-hold furniture. An admin dashboard for products uploads and keeping track of daily sales and much more.
 
 •	[Daxapp](https://daxapp.vercel.app/) – This is a messaging web app where users can send messages, voice notes, images, and videos to people on DaxApp. Messages can be replied to or deleted by either user. Users can upload text statuses, update their profile details, and modify their profiles etc. 
