@@ -1,35 +1,13 @@
-# 🌟 About Me
+#  Me
 
-- 👋 Hi, I’m Darlington John
+- Devlin here
 -  A Frontend developer 
--  💻 I live in code — it’s how I stay grounded, focused, and expressive
--  🎧 Music keeps me grounded. I mean, I love music. But let’s be real — who doesn’t? 😒
--  🎌 Oh — I love anime too? Yeah, I’m that person. Sub > Dub. Fight me 🔥
--  ✨ When I’m not coding, I’m exploring new frameworks or dreaming up the next fun UI interaction.
+-  I code — it’s how I stay grounded, focused, and expressive
+-  I love music. But let’s be real — who doesn’t? 
 
 -  [My Portfolio](https://darlington-john.framer.website/)- Check out my portfolio
 
 ---
-
-## 🚀Tools/Skills
-
-### 🖥️ Frontend development
-- Reactjs, Nextjs, TypeScript, JavaScript, MERN stack, Remix
-  
-### State Management
-- Redux, React Context API
-
-### 💾Databases
-- MongoDb, PostgreSQL, Xata
-
-### 🎨 Styling
-- Tailwind Css, Bootstrap, Vanilla Css
-
-### 🧰 Tools & Utilities
-Git & GitHub, JWT, Tiptap, Paystack
-
-### Version control
-- Git, GitHub  
 
 ### Projects I've built
 Here are some of my favorite solo projects, all built from scratch:
@@ -53,11 +31,10 @@ Here are some of my favorite solo projects, all built from scratch:
 
 ---
 
-# 📫 Let’s Connect
-I’m actively looking for frontend development internships — especially ones where I can keep learning and building real-world experiences.
+#  Let’s Connect
 
 Email: onuohadarlington38@gmail.com
 
 LinkedIn: Darlington John
 
-Let’s build something cool together. 🚀
+Let’s build something cool together... or not.
